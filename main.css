@@ -1,0 +1,24 @@
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  table, td, th {
+    border: 1.5px solid rgb(122, 117, 117);
+  }
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+
+  tr:nth-child(even) {background-color: #f2f2f2;}
+  th{
+    background-color: #4CAF50;
+    color: white;
+  }
+  td{
+      width: 30%;
+  }
+  input[type="text" i] {
+    padding: 8px;
+    width: 90%;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <table >
+        <tr>
+          <th colspan="3">simulateur pour calcule NET salaire </th>
+        </tr>
+        <tr>
+          <td>nombre du point</td>
+          <td><input type="text" id="point" class="val">
+          <td class="other" id="err-point"></td>
+        </tr>
+          <tr>
+            <td>salair brut</td>
+            <td><input type="text" id="brut" class="val" disabled></td>
+            <td class="other" id="err-brut"></td>
+          </tr>
+          <tr>
+            <td>prime resedence 13%</td>
+            <td><input type="text" id="prime" class="val" disabled></td>
+            <td class="other" id="err-prime"></td>
+          </tr>
+          <tr>
+            <td>return de retrait de 6%</td>
+            <td><input type="text" id="retrait" class="val" disabled></td>
+            <td class="other" id="err-retrait"></td>
+          </tr>
+          <tr>
+            <td>return meturelle de 2.5%</td>
+            <td><input type="text" id="meturelle" class="val" disabled></td>
+            <td class="other" id="err-meturelle"></td>
+          </tr>
+          <tr>
+            <td>return impot sur le revenu(IR) </td>
+            <td><input type="text" id="impot" class="val" disabled></td>
+            <td class="other" id="err-impot"></td>
+          </tr>
+          <tr>
+            <td>salair net </td>
+            <td><input type="text" id="net" class="val" disabled></td>
+            <td class="other" id="err-net"></td>
+          </tr>
+          <tr>
+        
+            <td colspan="3"><input type="button" value="calculer" onclick="calculer()"> 
+                <input type="button" value="fermer"> 
+                <input type="button" value="imprimer">
+                <input type="button" value="vide" onclick="vide()">
+            </td>
+          
+          </tr>
+          
+      </table>
+</body>
+</html>
