@@ -5,6 +5,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel='stylesheet' type='text/css' href='main.css'>
     <script src='main.js'></script>
 </head>
@@ -50,14 +51,16 @@
           </tr>
           <tr>
         
-            <td colspan="3"><input type="button" value="calculer" onclick="calculer()"> 
-                <input type="button" value="fermer"> 
-                <input type="button" value="imprimer">
-                <input type="button" value="vide" onclick="vide()">
+            <td colspan="3" class="d-print-none">
+              <input type="button" value="calculer" onclick="calculer()" class="btn btn-success d-print-none"> 
+                <input type="button" value="fermer" onclick="fermer()"  class="btn btn-danger d-print-none"> 
+                <input type="button" value="imprimer" onClick="window.print()" class="btn btn-info d-print-none">
+                <input type="button" value="vide" onclick="vide()" class="btn btn-warning d-print-none">
             </td>
           
           </tr>
           
       </table>
+      
 </body>
 </html>

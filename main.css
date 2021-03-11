@@ -17,6 +17,7 @@ table {
   }
   td{
       width: 30%;
+      font-weight: 500;
   }
   input[type="text" i] {
     padding: 8px;
